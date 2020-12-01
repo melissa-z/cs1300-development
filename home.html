@@ -1,14 +1,57 @@
 <!doctype html>
 
 <html>
-  <head>
-    <title>INSERT TITLE HERE!</title>
-    <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-  </head>
+    <head>
+        <title>React Development</title>
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+    </head>
 
-  <body>
-    <!-- TODO: put your HTML code here! -->
-  </body>
+    <body>
+        <div class="contents-wrapper mb-5">
+            <div class="header mt-5">
+                <div class="title main"><span class="highlight-1">React Development</span></div>
+                <h3>Building a shopping cart interface in React</h3>
+            </div>
+            <div class="section mt-4">
+                <h2><span class="highlight-2">Introduction</span></h2>
+                <p> In this project, I developed a cake shopping interface in React, and learned to use various React tools such as class components, stateless components, and hooks.</p>
+                <p> The final product is the website of an online cake shop display, where users can browse through a list of cakes, filter items by categories,  sort the items on display, and add or remove any number of item to a shopping cart. </p>
+            </div>
+            <div class="section">
+                <h2><span class="highlight-3">Design</span></h2>
+                <p> Many design and usability principles were considered throughout the creation of this interface:</p>
+                <ul>
+                    <li>
+                        The filters, as well as the total price of items in the cart,  are fixed at the top of the page for visibility and accessibility.
+                    </li>
+                    <li>
+                        Labels are in a smaller font underneath the title in order to  convey information hierarchy, 
+                        and are highlighted according to their categories for visual indications of different categorizations. 
+                    </li>
+                    <li>
+                        Item cards in the cart are smaller and contain less information to reduce unnecessary clutter, but are styled similarly to item cards the “Browse” section provide consistency
+                    </li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2><span class="highlight-4">React App</span></h2>
+                <p>Here's the final product of the React App:</p>
+                <div class='d-flex justify-content-center'>
+                    <img src='https://livforcake.com/wp-content/uploads/2017/06/vanilla-cake-thumb-500x500.jpg' alt='screenshot of cake shop website'/>
+                </div>
+                    <p class='mb-2 mt-4 d-flex justify-content-center'>Visit the website here:</p>
+                    <div class='d-flex justify-content-center'>
+                        <button type="button" class="btn btn-info" onclick="window.location.href='https://calm-headland-07623.herokuapp.com/'">React Shopping Cart</button>
+                    </div>
+                    <p class='mb-2 mt-4 d-flex justify-content-center'>Take a look at the GitHub repository here:</p>
+                    <div class='d-flex justify-content-center'>
+                        <button type="button" class="btn btn-info" onclick="window.location.href='https://github.com/melissa-z/react-shopping-cart'">react-shopping-cart</button>
+                    </div>
+            </div>
+        </div>
+    </body>
 </html>

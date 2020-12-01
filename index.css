@@ -1,1 +1,44 @@
-/* Put your style information here! */
+body {
+    font-family: 'Lato', sans-serif;
+  }
+
+.highlight-1 { 
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, rgb(226, 236, 226) 50%); 
+}
+
+.highlight-2 { 
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, rgb(221, 237, 248) 50%); 
+}
+
+.highlight-3 { 
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, rgb(255, 244, 201) 50%); 
+}
+
+.highlight-4 { 
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, rgb(255, 224, 188) 50%); 
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+}
+
+.main {
+    font-size: 3em;
+}
+
+h3 {
+    color: rgb(70, 70, 70);
+}
+
+.contents-wrapper {
+    padding-top: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
